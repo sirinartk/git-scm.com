@@ -23,7 +23,7 @@ gem "redcarpet"
 gem "yajl-ruby"
 
 # Assets
-gem "compass-rails"
+gem "compass-rails", ">= 4.0.0"
 gem "sass-rails"
 gem "uglifier", "3.2.0"
 
@@ -36,7 +36,7 @@ end
 
 group :development, :test do
   gem "bullet"
-  gem "dotenv-rails"
+  gem "dotenv-rails", ">= 2.7.6"
   gem "pry-byebug"
   gem "rubocop-github"
   gem "ruby-prof"
@@ -47,7 +47,7 @@ group :test do
   gem "database_cleaner"
   gem "fabrication"
   gem "rails-perftest"
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 3.8.0"
   gem "shoulda-matchers"
   gem "vcr"
   gem "webmock"
